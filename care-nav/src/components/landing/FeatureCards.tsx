@@ -1,27 +1,35 @@
 import Link from 'next/link';
-import { ClipboardList, BookOpen, FolderSearch, CheckSquare, ArrowRight } from 'lucide-react';
+import { ClipboardList, BookOpen, FolderSearch, CheckSquare, ArrowRight, HeartHandshake } from 'lucide-react';
 
 const features = [
   {
-    icon: ClipboardList,
-    title: 'Care Needs Assessment',
-    description: 'Answer 5 questions about your loved one\'s situation and get personalized care type recommendations tailored to their needs.',
-    href: '/assessment',
+    icon: HeartHandshake,
+    title: 'CalAIM & Medi-Cal Services',
+    description: 'Understand Enhanced Care Management, Community Supports, IHSS, MSSP, and PACE — California\'s Medi-Cal programs for seniors and families.',
+    href: '/calaim',
     color: 'text-teal-600',
     bg: 'bg-teal-50',
   },
   {
-    icon: BookOpen,
-    title: 'Care Types Guide',
-    description: 'Explore all 7 major types of elder care — from in-home support to memory care — with costs, pros, cons, and who each option is best for.',
-    href: '/care-types',
+    icon: ClipboardList,
+    title: 'Care Needs Assessment',
+    description: 'Answer a few questions about your loved one\'s situation and get personalized recommendations for the right type of care — including Medi-Cal options.',
+    href: '/assessment',
     color: 'text-blue-600',
     bg: 'bg-blue-50',
   },
   {
+    icon: BookOpen,
+    title: 'Care Types Guide',
+    description: 'Explore all major types of elder care in California — from IHSS in-home support to memory care — with costs, eligibility, and who each option is best for.',
+    href: '/care-types',
+    color: 'text-indigo-600',
+    bg: 'bg-indigo-50',
+  },
+  {
     icon: FolderSearch,
-    title: 'Resource Directory',
-    description: 'Find government programs, financial aid, caregiver support, legal help, and medical resources — all in one searchable directory.',
+    title: 'California Resource Directory',
+    description: 'Find Medi-Cal programs, IHSS enrollment, CalAIM community supports, legal aid, and senior care resources across California.',
     href: '/resources',
     color: 'text-violet-600',
     bg: 'bg-violet-50',
@@ -29,7 +37,7 @@ const features = [
   {
     icon: CheckSquare,
     title: 'Care Planning Checklist',
-    description: 'Work through a comprehensive checklist covering documents to gather, questions for facilities, financial planning, and medical coordination.',
+    description: 'Work through a step-by-step checklist covering Medi-Cal enrollment, IHSS application, documents to gather, and care coordination.',
     href: '/checklist',
     color: 'text-amber-600',
     bg: 'bg-amber-50',
@@ -41,14 +49,14 @@ export default function FeatureCards() {
     <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
       <div className="text-center mb-10">
         <h2 className="text-2xl md:text-3xl font-bold text-slate-800 mb-3">
-          Everything you need in one place
+          Everything California families need in one place
         </h2>
         <p className="text-slate-500 max-w-xl mx-auto">
-          Four tools designed to guide you through every stage of the senior care decision-making process.
+          Five tools to help you navigate Medi-Cal services, CalAIM programs, and senior care options with clarity and confidence.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
         {features.map((f) => {
           const Icon = f.icon;
           return (

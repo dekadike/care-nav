@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'CareNav – Elder Care Navigation',
+  title: 'Omatochi Family App – Medi-Cal Navigation for California Families',
   description:
-    'Navigate senior care options with confidence. Find the right care for your loved one with our assessment, care type guide, resource directory, and planning checklist.',
+    'Helping California families navigate Medi-Cal services, CalAIM programs, and senior care options. By We Are Medi-Cal Partners for Senior Care.',
 };
 
 export default function RootLayout({
