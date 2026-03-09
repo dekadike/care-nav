@@ -4,10 +4,10 @@
     {
       "name": "care-nav",
       "runtimeExecutable": "C:/Program Files/nodejs/node.exe",
-      "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "--port", "3001"],
+      "runtimeArgs": ["node_modules/next/dist/bin/next", "dev"],
       "cwd": "C:\\Users\\hilda\\Documents\\care-nav",
-      "port": 3001,
-      "autoPort": false
+      "port": 3000,
+      "autoPort": true
     }
   ]
 }
