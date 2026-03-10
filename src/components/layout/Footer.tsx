@@ -18,10 +18,10 @@ export default function Footer() {
             <OmatochLogo height={28} inverted />
           </div>
           <p className="text-xs font-semibold text-teal-400 uppercase tracking-widest mt-2 mb-2">
-            By We Are Medi-Cal Partners for Senior Care
+            A Smarter Way for Your Loved Ones to Age in Place
           </p>
           <p className="text-sm leading-relaxed text-slate-400">
-            Helping California families navigate Medi-Cal services, CalAIM programs, and senior care options with clarity and confidence.
+            Holistic, family-focused in-home senior care enhanced by our Family App — and your trusted California Medi-Cal partner for CalAIM, IHSS, and community care navigation.
           </p>
           <p className="text-xs text-slate-500 mt-3">
             This tool provides general information only — not medical, legal, or financial advice. Always consult qualified professionals for your specific situation.

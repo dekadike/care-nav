@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Omatochi Family App – Medi-Cal Navigation for California Families',
+  title: 'Omatochi Family App – A Smarter Way for Your Loved Ones to Age in Place',
   description:
-    'Helping California families navigate Medi-Cal services, CalAIM programs, and senior care options. By We Are Medi-Cal Partners for Senior Care.',
+    'Holistic, family-focused in-home senior care and California Medi-Cal navigation. Find CalAIM, IHSS, MSSP, and PACE resources near you. By Omatochi — We Are Medi-Cal Partners for Senior Care.',
 };
 
 export default function RootLayout({

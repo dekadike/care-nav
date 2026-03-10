@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, Heart, Home, Star, Users } from 'lucide-react';
+import { ArrowRight, CheckCircle, Heart, Home, MapPin, Star, Users } from 'lucide-react';
 import { calaimServices } from '@/data/calaimServices';
+import ZipCodeLookup from '@/components/calaim/ZipCodeLookup';
 
 export const metadata = {
   title: 'CalAIM & Medi-Cal Services | Omatochi Family App',
@@ -198,6 +199,18 @@ export default function CalAIMPage() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* ZIP Code Lookup */}
+      <section className="max-w-4xl mx-auto px-4 pb-10">
+        <div className="flex items-center gap-2 mb-2">
+          <MapPin className="w-6 h-6 text-teal-600" />
+          <h2 className="text-2xl font-bold text-slate-800">Find CalAIM & IHSS Resources Near You</h2>
+        </div>
+        <p className="text-slate-500 mb-6">
+          Enter your ZIP code to find your county&apos;s Medi-Cal managed care plans, IHSS office, and CalAIM providers — all in one place.
+        </p>
+        <ZipCodeLookup />
       </section>
 
       {/* CTA */}

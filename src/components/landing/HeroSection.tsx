@@ -14,14 +14,14 @@ export default function HeroSection() {
           <div className="flex items-center gap-2 mb-4">
             <Heart className="w-4 h-4 fill-teal-200 text-teal-200" />
             <p className="text-teal-200 font-semibold text-sm uppercase tracking-widest">
-              We Are Medi-Cal Partners for Senior Care
+              Holistic, Family-Focused Senior Care · California Medi-Cal Partners
             </p>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5">
-            Your Family&apos;s Guide to Medi-Cal &amp; Senior Care in California
+            A Smarter Way for Your Loved Ones to Age in Place
           </h1>
           <p className="text-teal-100 text-lg leading-relaxed mb-4 max-w-xl">
-            Navigating Medi-Cal, CalAIM, and senior care options is complex. We make it simple — with personalized guidance, California-specific resources, and expert support every step of the way.
+            Our holistic approach addresses your senior&apos;s physical, mental, and social needs — while helping your family navigate Medi-Cal, CalAIM, IHSS, and every California care option available to them.
           </p>
           <div className="flex flex-wrap gap-2 mb-8">
             {['CalAIM Community Supports', 'IHSS', 'MSSP', 'PACE', 'Medi-Cal Enrollment'].map((tag) => (
