@@ -16,7 +16,7 @@ export const careTypes: CareType[] = [
     ],
     typicalCost: {
       range: '$20–$35/hour or $4,000–$6,000/month for full-time care',
-      note: 'Medicaid may cover some in-home services depending on your state.',
+      note: 'California\'s IHSS (In-Home Supportive Services) program can cover in-home care at no cost for eligible Medi-Cal beneficiaries — including paying a family member as the provider.',
     },
     pros: [
       'Familiar, comfortable home environment',
@@ -45,8 +45,8 @@ export const careTypes: CareType[] = [
       'Seniors who need socialization but can still live at home',
     ],
     typicalCost: {
-      range: '$70–$150/day (varies widely by location)',
-      note: 'Some Medicaid programs and Veterans benefits may cover adult day services.',
+      range: '$70–$150/day in California (varies by county)',
+      note: 'Medi-Cal may cover Adult Day Health Care (ADHC) through MSSP or managed care plans. Ask your Medi-Cal plan about CalAIM Community Supports for additional day program coverage.',
     },
     pros: [
       'Much less expensive than full-time residential care',
@@ -75,8 +75,8 @@ export const careTypes: CareType[] = [
       'Seniors planning ahead for potential future needs',
     ],
     typicalCost: {
-      range: '$1,500–$4,000/month (all-inclusive varies)',
-      note: 'Generally not covered by Medicare or Medicaid; typically paid out of pocket.',
+      range: '$2,000–$5,000/month in California',
+      note: 'Generally not covered by Medi-Cal. Typically paid out of pocket. Some low-income options exist through HUD Section 202 housing programs.',
     },
     pros: [
       'Rich social environment with built-in community',
@@ -105,8 +105,8 @@ export const careTypes: CareType[] = [
       'Seniors who would benefit from a structured social community',
     ],
     typicalCost: {
-      range: '$3,500–$6,000/month (national median ~$4,800)',
-      note: 'Medicaid covers assisted living in some states through waiver programs.',
+      range: '$4,000–$7,000/month in California',
+      note: 'Medi-Cal may cover assisted living through the Assisted Living Waiver (ALW) program in participating counties. Contact your Medi-Cal managed care plan for availability.',
     },
     pros: [
       'Balance of independence and available support',
@@ -135,8 +135,8 @@ export const careTypes: CareType[] = [
       'Those requiring consistent, structured daily routines',
     ],
     typicalCost: {
-      range: '$4,500–$8,000+/month',
-      note: 'Typically not covered by Medicare long-term; Medicaid coverage varies by state.',
+      range: '$5,500–$9,000+/month in California',
+      note: 'Medi-Cal covers memory care in skilled nursing facilities. Assisted living memory care may be covered through the Assisted Living Waiver (ALW) in some California counties.',
     },
     pros: [
       'Secure environment prevents wandering',
@@ -165,8 +165,8 @@ export const careTypes: CareType[] = [
       'People who cannot safely be cared for at home or in assisted living',
     ],
     typicalCost: {
-      range: '$8,000–$12,000+/month (semi-private to private room)',
-      note: 'Medicare covers short-term skilled nursing after a qualifying hospital stay (up to 100 days).',
+      range: '$9,000–$14,000+/month in California',
+      note: 'Medicare covers short-term stays (up to 100 days) after a qualifying hospital stay. Medi-Cal covers long-term skilled nursing for eligible beneficiaries after a Share of Cost (SOC) spend-down if applicable.',
     },
     pros: [
       'Highest level of medical care outside a hospital',

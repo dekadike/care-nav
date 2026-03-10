@@ -288,10 +288,116 @@ export const resources: Resource[] = [
     website: 'https://www.nhpco.org',
     phone: '1-800-658-8898',
   },
+
+  // California / Medi-Cal
+  {
+    id: 'dhcs-calaim',
+    name: 'DHCS – CalAIM Program Info',
+    category: 'california',
+    categoryLabel: 'California',
+    description:
+      'The California Department of Health Care Services (DHCS) oversees CalAIM — the initiative transforming Medi-Cal with Enhanced Care Management, Community Supports, and more. Find official program details, eligibility guides, and managed care plan information.',
+    actionItems: [
+      'Learn about Enhanced Care Management (ECM) eligibility',
+      'Find your Medi-Cal managed care plan to request CalAIM services',
+      'Review the Community Supports your plan offers',
+    ],
+    website: 'https://www.dhcs.ca.gov/calaim',
+  },
+  {
+    id: 'ihss-program',
+    name: 'IHSS – In-Home Supportive Services',
+    category: 'california',
+    categoryLabel: 'California',
+    description:
+      'California\'s IHSS program pays for in-home care services for eligible Medi-Cal beneficiaries so they can remain safely at home. A family member can often be hired and paid as the IHSS provider.',
+    actionItems: [
+      'Apply through your county IHSS office or CDSS website',
+      'Request a home visit assessment from a social worker',
+      'Ask about the IHSS Protective Supervision program for those with cognitive issues',
+      'Learn how to become your loved one\'s paid provider',
+    ],
+    website: 'https://www.cdss.ca.gov/in-home-supportive-services',
+    phone: '1-916-651-8848',
+  },
+  {
+    id: 'mssp',
+    name: 'MSSP – Multipurpose Senior Services Program',
+    category: 'california',
+    categoryLabel: 'California',
+    description:
+      'MSSP is a Medi-Cal waiver providing case management and community services to frail older Californians who would otherwise need nursing facility care. Contact your local Area Agency on Aging to apply.',
+    actionItems: [
+      'Find your local MSSP site through the California Department of Aging',
+      'Request a needs assessment to determine eligibility',
+      'Ask about services like adult day health care, respite, and meal delivery',
+    ],
+    website: 'https://www.aging.ca.gov/Providers_and_Partners/MSSP_Site_Agencies',
+    phone: '1-800-510-2020',
+  },
+  {
+    id: 'pace-california',
+    name: 'PACE – Program of All-Inclusive Care',
+    category: 'california',
+    categoryLabel: 'California',
+    description:
+      'PACE provides comprehensive managed care for adults 55+ who qualify for nursing home care but wish to live in the community. In California, PACE covers all Medicare and Medi-Cal services through one coordinated team.',
+    actionItems: [
+      'Find a California PACE organization at npaonline.org',
+      'Confirm your address is within a PACE service area',
+      'Request an enrollment assessment from the PACE organization',
+    ],
+    website: 'https://npaonline.org/find-a-pace-program',
+  },
+  {
+    id: 'medi-cal-enroll',
+    name: 'Medi-Cal Enrollment (Covered California)',
+    category: 'california',
+    categoryLabel: 'California',
+    description:
+      'Apply for Medi-Cal — California\'s Medicaid program — through Covered California or your county\'s social services office. Most Californians 65+ with limited income qualify. No cost-sharing for most covered services.',
+    actionItems: [
+      'Apply online at coveredca.com or call the Medi-Cal helpline',
+      'Gather proof of income, residency, and identity',
+      'Ask about the Senior Medi-Cal program and the MAGI Medi-Cal pathways',
+      'Enroll any time — Medi-Cal has no open enrollment period',
+    ],
+    website: 'https://www.coveredca.com/medi-cal',
+    phone: '1-800-300-1506',
+  },
+  {
+    id: 'ca-dept-aging',
+    name: 'California Department of Aging',
+    category: 'california',
+    categoryLabel: 'California',
+    description:
+      'The California Department of Aging administers programs that serve older adults, adults with disabilities, and caregivers — including the Area Agencies on Aging network, MSSP, and the Long-Term Care Ombudsman.',
+    actionItems: [
+      'Find your local Area Agency on Aging (AAA)',
+      'Contact the Long-Term Care Ombudsman for facility complaints',
+      'Explore the California Master Plan for Aging resources',
+    ],
+    website: 'https://www.aging.ca.gov',
+    phone: '1-800-510-2020',
+  },
+  {
+    id: 'we-are-medi-cal',
+    name: 'We Are Medi-Cal Partners for Senior Care',
+    category: 'california',
+    categoryLabel: 'California',
+    description:
+      'We are your local Medi-Cal partners — helping California families navigate enrollment, CalAIM services, IHSS, and senior care coordination. Reach out for personalized guidance on Medi-Cal programs for your loved one.',
+    actionItems: [
+      'Contact us for a free Medi-Cal eligibility consultation',
+      'Ask about CalAIM Enhanced Care Management referrals',
+      'Get help navigating IHSS applications and managed care enrollment',
+    ],
+  },
 ];
 
 export const resourceCategories: { id: string; label: string }[] = [
   { id: 'all', label: 'All Resources' },
+  { id: 'california', label: '🌟 California / Medi-Cal' },
   { id: 'government', label: 'Government' },
   { id: 'financial-aid', label: 'Financial Aid' },
   { id: 'caregiver-support', label: 'Caregiver Support' },

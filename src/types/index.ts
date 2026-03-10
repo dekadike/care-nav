@@ -53,7 +53,8 @@ export type ResourceCategory =
   | 'caregiver-support'
   | 'legal'
   | 'housing'
-  | 'medical';
+  | 'medical'
+  | 'california';
 
 export interface Resource {
   id: string;
