@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col md:flex-row gap-6 md:items-start justify-between">
         <div className="max-w-sm">
           <div className="mb-1">
-            <OmatochLogo height={28} className="brightness-0 invert opacity-90" />
+            <OmatochLogo height={28} inverted />
           </div>
           <p className="text-xs font-semibold text-teal-400 uppercase tracking-widest mt-2 mb-2">
             By We Are Medi-Cal Partners for Senior Care
