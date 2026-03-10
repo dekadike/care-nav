@@ -1,5 +1,6 @@
 import HeroSection from '@/components/landing/HeroSection';
 import FeatureCards from '@/components/landing/FeatureCards';
+import FamiliesSection from '@/components/landing/FamiliesSection';
 import { LinkButton } from '@/components/ui/Button';
 import { ArrowRight } from 'lucide-react';
 
@@ -8,6 +9,7 @@ export default function HomePage() {
     <div>
       <HeroSection />
       <FeatureCards />
+      <FamiliesSection />
 
       {/* CTA strip */}
       <section className="bg-teal-700 text-white">
